@@ -421,8 +421,8 @@ const QUESTIONS = [
    auf diesem Gerät (zum Ausprobieren). Sobald beide Werte gesetzt
    sind, ist die Rangliste online für alle Geräte gemeinsam.
    ============================================================ */
-const SUPABASE_URL = "DEINE_PROJECT_URL_HIER";
-const SUPABASE_KEY = "DEIN_ANON_KEY_HIER";
+const SUPABASE_URL = "https://ulsfwcaglkyxcuzaotof.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVsc2Z3Y2FnbGt5eGN1emFvdG9mIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE5ODIyMjUsImV4cCI6MjA5NzU1ODIyNX0.7zWcfgpMMPYBT-JhlIz28C0ym844dFDgQkOXf9UX7ew";
 
 const ONLINE = SUPABASE_URL.startsWith("http") && SUPABASE_KEY.length > 20;
 const monthKey = () => { const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0"); };
